@@ -1,0 +1,334 @@
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'poppins', sans-serif;
+    min-width: fit-content;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(7, 7, 57);
+}
+
+main>hr {
+    border: 0;
+    margin: 40px 80px;
+    height: 1.2px;
+    background-color: rgb(68, 69, 159);
+}
+
+
+nav ul {
+
+    display: flex;
+    justify-content: center;
+ 
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    font-size: 1.04rem;
+    color: rgb(243, 207, 136);
+    background-color: rgb(20, 20, 78);
+}
+
+#left {
+    font-size: 1.5rem;
+}
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.secondsection {
+    margin: auto;
+    max-width: 80vmax;
+    height: 600px
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+
+}
+
+.rightsection img {
+
+    width: 70%;
+    border-radius: 50%;
+}
+
+#element {
+    color: rgb(105, 60, 153);
+}
+
+#name {
+    color: rgb(102, 60, 153);
+}
+
+#def {
+    color: grey;
+    font-size: smaller;
+    margin: -10px 0;
+}
+
+.vertical img {
+    width: 70px;
+    top: -83px;
+    left: -33px;
+    position: relative;
+
+}
+
+.vertical {
+    /* margin: -117px 125px; */
+    height: 100px;
+    width: 1px;
+    border: 1px solid wheat;
+}
+
+.experiences {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secondsection hr {
+    border: 0;
+    margin-top: 100px;
+    height: 0.2px;
+    background-color: white;
+}
+
+
+.vertical-desc {
+    color: gray;
+    width: 150px;
+    font-size: 0.7em;
+    margin: -17px -49px;
+    position: relative;
+}
+
+.vertical-heading {
+    margin: 26px -20px;
+    position: relative;
+}
+footer{
+    height: 400px;
+    background-color: #010510;
+    color: #6f7e80;
+}
+.footer-sect {
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.footerright ul{
+   
+    list-style: none;
+    justify-content: center;
+
+}
+.footerright{
+    margin: 100px 0;
+}
+
+.footerleft{
+
+    padding: 8%;
+
+}
+
+.footerright ul li a{
+margin: 20px 30px;
+  text-decoration: none;
+  color: #6f7e80;
+
+
+}
+
+.footerright ul li{
+    margin: 15px;
+}
+
+.BottomFooter{
+   text-align:center;
+   margin-top: -40px;
+}
+
+.btn-Git{
+padding: 10px;
+border-radius: 10%;
+margin: 10px;
+background-color: rgb(5 42 117);
+text-decoration: none;
+}
+
+.btn-Git a{
+    background-color:  rgb(5 42 117);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    }
+
+    .btn-res a{
+        background-color: #001121;
+        color: antiquewhite;
+        font-size: 20px;
+        text-decoration: none;
+    }
+.btn-res {
+padding: 10px;
+border-radius: 10%;
+margin: 10px;
+background-color: #001121;
+color: antiquewhite;
+text-decoration: none;
+}
+.aboutme{
+display: flex;
+justify-content: space-evenly;
+}
+.rightabout img{
+width: 300px;
+border-radius: 50%;
+align-items: center;
+margin: 50% 0;
+}
+
+.leftabout{
+    margin: 2px 30px;
+}
+
+#namesect{
+    color: rgb(172, 87, 203);
+  font-weight: 500;
+    white-space: pre-line;
+    font-size: 1.03rem;
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        min-width:fit-content;
+    }
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutme{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    /* text-align: center; */
+    text-align: left;
+  }
+
+  .aboutme .leftabout #namesect {
+    color: rgb(172, 87, 203);
+    font-weight: 500;
+    white-space: pre-line;
+    font-size: 3vw;
+}
+
+  .firstsection{
+    flex-direction: column-reverse;
+  }
+
+  .firstsection .leftsection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .firstsection .leftsection .btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+  }
+  .secondsection{
+    height: 220vh;
+    margin: auto;
+  }
+  .secondsection hr {
+    border: 0;
+    margin-top: 0;
+    height: 0.2px;
+    background-color: purple;
+}
+
+  .secondsection .experiences {
+    height: 93px;
+    display: block;
+   width: 1px;
+   margin: 25vw 12vw;
+  }
+
+
+.vertical-heading {
+    margin: 42px 53px;
+    top: -192px;
+    position: relative;
+}
+.vertical {
+    /* margin: -117px 125px; */
+    height: 200px;
+    width: 1px;
+    border: 1px solid wheat;
+}
+
+.vertical-desc {
+    color: gray;
+    width: 150px;
+    font-size: 0.7em;
+    margin: -10px 50px;
+    top: -47vw;
+    position: relative;
+}
+
+  
+  .firstsection .leftsection .btn-res a{
+   
+   font-size: small;
+  }
+
+  .firstsection .leftsection .btn-Git a{
+    font-size: small;
+  }
+  .footer-sect{
+    flex-direction: column;
+    /* display: contents; */
+    justify-content: space-evenly;
+    display: flex;
+    background: #101a36;
+    align-items: flex-start;
+    margin: -5px -8px;
+    flex-wrap: nowrap;
+}
+}
+
