@@ -1,6 +1,106 @@
+/* Basic Styling */
+.secondsection {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .secondsection h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #333;
+  }
+  
+  .secondsection hr {
+    border: 0;
+    height: 2px;
+    background: #ddd;
+    margin: 1rem 0;
+  }
+  
+  #def {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .experiences {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .vertical {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    max-width: 300px;
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .vertical:hover {
+    transform: translateY(-5px);
+  }
+  
+  .images {
+    width: 100px;
+    height: auto;
+    margin-top: 1rem;
+    order: 1;
+  }
+  
+  .vertical-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222;
+    margin: 0.5rem 0;
+  }
+  
+  .vertical-desc {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 600px) {
+    .secondsection {
+      padding: 1rem;
+    }
+  
+    #def {
+      font-size: 1rem;
+    }
+  
+    .vertical {
+      padding: 1rem;
+    }
+  
+    .vertical-heading {
+      font-size: 1.2rem;
+    }
+  
+    .vertical-desc {
+      font-size: 0.9rem;
+    }
+  
+    .images {
+      width: 80px;
+    }
+  }
+  
+
 body {
-    background-color: rgb(0, 0, 33);
-    color: white;
+    background-color: rgb(255, 185, 80);
+    color: rgb(0, 0, 0);
     font-family: 'poppins', sans-serif;
     min-width: fit-content;
 }
@@ -10,7 +110,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     height: 80px;
-    background-color: rgb(7, 7, 57);
+    background-color:rgb(255, 194, 80);
 }
 
 main>hr {
@@ -57,11 +157,11 @@ nav ul li a:hover {
     margin: 130px 0;
 }
 
-.secondsection {
+/* .secondsection {
     margin: auto;
     max-width: 80vmax;
     height: 600px
-}
+} */
 
 .firstsection>div {
     width: 30%;
@@ -85,12 +185,12 @@ nav ul li a:hover {
 #name {
     color: rgb(102, 60, 153);
 }
-
+/* 
 #def {
     color: grey;
     font-size: smaller;
     margin: -10px 0;
-}
+} */
 
 .vertical img {
     width: 70px;
@@ -99,14 +199,14 @@ nav ul li a:hover {
     position: relative;
 
 }
-
+/* 
 .vertical {
     /* margin: -117px 125px; */
-    height: 100px;
+    /* height: 100px;
     width: 1px;
-    border: 1px solid wheat;
-}
-
+    border: 1px solid wheat; */
+/* } */
+/* 
 .experiences {
 
     display: flex;
@@ -118,8 +218,8 @@ nav ul li a:hover {
     margin-top: 100px;
     height: 0.2px;
     background-color: white;
-}
-
+} */
+/* 
 
 .vertical-desc {
     color: gray;
@@ -132,7 +232,7 @@ nav ul li a:hover {
 .vertical-heading {
     margin: 26px -20px;
     position: relative;
-}
+} */
 footer{
     height: 400px;
     background-color: #010510;
@@ -204,10 +304,11 @@ padding: 10px;
 border-radius: 10%;
 margin: 10px;
 background-color: #001121;
-color: antiquewhite;
+color: rgb(0, 0, 0);
 text-decoration: none;
 }
 .aboutme{
+    background-color: rgb(255, 220, 80);
 display: flex;
 justify-content: space-evenly;
 }
@@ -223,7 +324,7 @@ margin: 50% 0;
 }
 
 #namesect{
-    color: rgb(172, 87, 203);
+    color: rgb(4, 4, 4);
   font-weight: 500;
     white-space: pre-line;
     font-size: 1.03rem;
@@ -271,7 +372,7 @@ margin: 50% 0;
     text-align: center;
     padding: 10px;
   }
-  .secondsection{
+  /* .secondsection{
     height: 220vh;
     margin: auto;
   }
@@ -297,19 +398,19 @@ margin: 50% 0;
 }
 .vertical {
     /* margin: -117px 125px; */
-    height: 200px;
+    /* height: 200px;
     width: 1px;
     border: 1px solid wheat;
-}
+} */
 
-.vertical-desc {
+/* .vertical-desc {
     color: gray;
     width: 150px;
     font-size: 0.7em;
     margin: -10px 50px;
     top: -47vw;
     position: relative;
-}
+} */
 
   
   .firstsection .leftsection .btn-res a{
