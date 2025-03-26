@@ -39,7 +39,7 @@ $(document).ready(
     function moveSkills() {
         $('.skill-item').each(function() {
             const maxX = $(window).width() - $(this).width();
-            const maxY = $(window).height() - $('#sec2').height()+400;
+            const maxY = $(window).height() - $('#skills-section').height()+400;
             
             const randomX = Math.floor(Math.random() * maxX);
             const randomY = Math.floor(Math.random() * maxY);
