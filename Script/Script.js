@@ -15,11 +15,11 @@ $(document).ready(
                         'cornflowerblue',
                         'springgreen',
                         'gold',
-                       // 'hotpink',
-                       // 'mediumorchid',
+                       'hotpink',
+                       'mediumorchid',
                         'aquamarine',
                         'orangered',
-                        // 'deepskyblue'
+                        'deepskyblue'
                     ];
                     const randomColor = brightColors[Math.floor(Math.random() * brightColors.length)];
         
