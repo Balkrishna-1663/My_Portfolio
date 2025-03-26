@@ -1,9 +1,42 @@
 header{
-  margin: 20px;
+
 display: flex;
 justify-content: space-between;
+position: fixed;
+top: 0;
+background-attachment:scroll;
+background-color: white;
+width: 100%;
 
 }
+
+footer{
+
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(232, 234, 72);
+  width: 100%;
+  border: 1px solid black;
+  }
+
+  footer a{
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px;
+    width: 350px;
+    align-content: center;
+    text-align: center;
+    height: 35px;
+    margin: 20px;    
+  }
+
+  footer a:hover{
+    background-color:white;
+    box-shadow:black   5px 5px 0 0 ;
+   
+  }
 
  #TopTitleName{
  align-content: center;
@@ -16,5 +49,66 @@ justify-content: space-between;
   background-color: rgb(1, 1, 36);  
   color: rgb(255, 255, 255);
   font-size: xx-large;
-  padding: 20px;
+  padding: 20px;}
+
+  #Sec1{
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    height: 85vh;
+align-items: center;
+  }
+
+  #introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  #introduction .IntroLink{
+    font-size: 5vh;
+    text-decoration: none;
+    border: 1px solid black;
+    margin:10px ;
+    padding: 20px 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow:black 5px 2px 0 0;
+    }
+    #introduction .IntroLink:hover{
+     color: white;
+     background-color: black;
+      box-shadow: grey 7px 5px 0 0;
+      }
+  #GraphicIntroducion{
+    align-content: center;
+    box-shadow: 1px 1px 8px 8px;
+  }
+
+  #sec2{
+   height: 85vh;
+  }
+#sec3{
+  height: 50vh;
+}
+#skills-section {
+  position: relative;
+  height: 80vh;
+  background-color: antiquewhite;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.skill-item {
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+#Sec3 {
+    padding: 3rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    height: 85vh;
 }
