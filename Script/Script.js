@@ -38,11 +38,13 @@ $(document).ready(
 
     function moveSkills() {
         $('.skill-item').each(function() {
+            changestyle();
             const maxX = $(window).width() - $(this).width();
             const maxY = $(window).height() - $('#skills-section').height()+400;
             
             const randomX = Math.floor(Math.random() * maxX);
             const randomY = Math.floor(Math.random() * maxY);
+           
             
             $(this).animate({
                 left: randomX,
@@ -54,7 +56,7 @@ $(document).ready(
     }
 
     // Initialize skill items
-    $('.skill-item').css({
+    function Changecss(){$('.skill-item').css({
         'position': 'absolute',
         'padding': '10px 20px',
         'background': 'white',
@@ -63,13 +65,16 @@ $(document).ready(
         'box-shadow': 'black 2px 2px 0 0'
 ,
         'transition': 'all 0.1s ease'
-    });
+    });}
 
     // Start the movement
+    changestyle();
     moveSkills();
+    Changecss();
+    
 
     // Hover effect with your existing bright colors
-    $('.skill-item').html(
+   function changestyle(){ $('.skill-item').html(
         function() {
             const brightColors = [
                 'coral',
@@ -94,5 +99,5 @@ $(document).ready(
                 'box-shadow': 'black 2px 2px 0 0'
             });
         }
-    );
+    );}
 });
